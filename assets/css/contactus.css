@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*end of essential css*/
+.navbar{
+	background-color: indigo;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+.navbar img{
+	height: 20px;
+	width: 20px;
+}
+/*end of navbar*/
+.row{
+	margin-top: 50px;
+	padding: 40px;
+}
+.row > .col > .card > div.card-header{
+	background-color: indigo;
+	color: white; 
+	height: 30vh;
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
+}
+.row > .col > .card > div.card-header > h3{
+	font-family: 'Questrial', sans-serif;
+	font-weight: 600;
+}
+.row > .col > .card > div.card-header > p{
+	margin-bottom: 2px;
+	font-family: 'Questrial', sans-serif;
+}
+.row > .col > .card > div.card-body{
+	background-color: #e5e8ed;
+	font-family: 'Questrial', sans-serif;
+	color: black;
+}
+textarea#message{
+	height: 30vh;
+}
+.row > .col > .card > div.card-body > .card-title{
+	font-family: 'Questrial', sans-serif;
+	font-weight: 600;
+}
+.row > .col > .card > div.card-body > div.embed-responsive{
+	height: 80vh;
+}
+.row > .col > .card > div.card-body > form >.input-group > .input-group-prepend> span.input-group-text{
+	background-color: indigo;
+	color: white;
+}
+/*end of body, start of social*/
+.container-fluid > div.social{
+	background-color: #651F7A;
+	font-size: 30px;
+	padding: 5px 5px;
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+.container-fluid > div.social a{
+	text-decoration: none;
+}
+/*end of social, start of footer*/
+.footers{
+	background-color: indigo;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+.footers a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+body .footers a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+/*end of footer*/
+/*start for responsive css*/
+/*mobile -sm*/
+@media only screen and (max-width: 450px){
+	div.container-fluid > .row > .col{
+		padding: 0px;
+	}
+	.card{
+		margin-bottom: 10px;
+		margin: 
+	}
+	.row{
+		padding: 40px 5px;
+		margin: 50px 0px 0px 0px;
+	}
+}
+/*tablet -ms*/
+@media only screen and (min-width: 451px) and (max-width: 768px){
+	.card{
+		margin-bottom: 20px;
+	}
+}
